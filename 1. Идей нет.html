@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Моя первая страница</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            text-align: center;
+            background-color: beige; 
+            padding: 340px;
+        }
+        div {
+            display: inline;
+            background-color: #deb887;
+            padding: 10px;
+            margin: -5px;
+            font-family: "Times New Roman", Times, serif;
+        }
+       
+        .hohoh:hover {
+            background-image: linear-gradient(to left, #deb887, #ffd59e);
+        }
+        .hohoh:hover:last-child {
+            background-image: linear-gradient(to left, #ffd59e, #deb887 );
+        }
+        .hohoho:hover {
+            background-image: linear-gradient(to left, #deb887, #e9c290);
+        }
+        .hohoho:hover:nth-child(3) {
+            background-image: radial-gradient(#deb887, #e9c290);
+        }
+        .hoho:hover {
+            background-image: linear-gradient(to left, #e9c290, #deb887 );
+        }
+    </style>
+</head>
+<body>
+    <div>
+     <div class="hohoh">Ваш магазин</div>  
+     <div class="hohoho">Новое и примечательное</div>
+     <div class="hohoho">Категории</div>
+     <div class="hoho">Магазин очков</div>
+     <div class="hoho">Новости</div>
+     <div class="hohoh">Лаборатории</div>
+    </div>
+</body>
